@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css3 - Propriedades</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .fundo {
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .fundo > div[class^='largura'] {
+        border-style: solid;
+        border-width: 2px;
+        margin-bottom: 2%;
+        height: 40px;
+      }
+
+      .largura-auto {
+        width: auto;
+        border-color: #00598daa;
+      }
+
+      .largura-vwvh {
+        width: 50vw;
+        border-color: #008d44aa;
+      }
+
+      .largura-percent {
+        width: 50%;
+        border-color: #eb6767aa;
+      }
+
+      .largura-pixel {
+        width: 350px;
+        border-color: #c82aaeaa;
+      }
+
+      .largura-fit {
+        width: fit-content;
+        border-color: #c2f01caa;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fundo">
+      <div class="largura-auto">
+        AUTO: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        nulla quia placeat doloremque! Esse impedit, deleniti hic excepturi
+        dolorem ea obcaecati quas quia omnis exercitationem ipsam autem tempora
+        at consectetur.
+      </div>
+
+      <div class="largura-vwvh">
+        VWVH: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        nulla quia placeat doloremque! Esse impedit, deleniti hic excepturi
+        dolorem ea obcaecati quas quia omnis exercitationem ipsam autem tempora
+        at consectetur.
+      </div>
+
+      <div class="largura-percent">
+        PERCENT: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Aperiam nulla quia placeat doloremque! Esse impedit, deleniti hic
+        excepturi dolorem ea obcaecati quas quia omnis exercitationem ipsam
+        autem tempora at consectetur.
+      </div>
+
+      <div class="largura-pixel">
+        PIXEL: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+      </div>
+
+      <div class="largura-fit">
+        FIT: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        nulla quia placeat doloremque! Esse impedit, deleniti hic excepturi
+        dolorem ea.
+      </div>
+
+      <div class="largura-max">
+        MAX: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        nulla quia placeat doloremque! Esse impedit, deleniti hic excepturi
+        dolorem ea.
+      </div>
+
+      <div class="largura-min">
+        MIN: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        nulla quia placeat doloremque! Esse impedit, deleniti hic excepturi
+        dolorem ea.
+      </div>
+    </div>
+  </body>
+</html>
